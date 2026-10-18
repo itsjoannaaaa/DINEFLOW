@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+!.env.example
+data/
+backups/
+*.log
+.test-data/
+*.sqlite
+*.sqlite-*
+*.zip
+/DineFlow-Website/
+/test-results/
+/administrator-setup-ready.jpg
+/backend-verification.jpg

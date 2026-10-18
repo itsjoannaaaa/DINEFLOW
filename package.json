@@ -1,0 +1,17 @@
+{
+  "name": "dineflow-restaurant-management",
+  "version": "2.0.0",
+  "private": true,
+  "description": "DineFlow restaurant management with SQLite and authenticated API",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node --test tests/backend.test.cjs tests/frontend.test.cjs",
+    "backup": "node backend/backup.cjs"
+  },
+  "dependencies": {
+    "nodemailer": "10.1.3"
+  }
+}
